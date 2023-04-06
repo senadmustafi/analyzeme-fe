@@ -78,7 +78,7 @@ export default {
 
       try {
         const response = await Service.post(
-          "https://analyzeme.dev/dir",
+          "https://analyzeme.dev/api/dir",
           this.domain,
           {
             headers: {

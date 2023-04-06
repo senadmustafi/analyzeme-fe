@@ -21,7 +21,7 @@ export default ({
     },
     methods:{
       async getMyIp(){
-          let myip =  await axios.get("https://analyzeme.dev/my-ip");
+          let myip =  await axios.get("https://analyzeme.dev/api/my-ip");
           this.ip = myip.data;
         }
     },

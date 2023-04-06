@@ -126,7 +126,7 @@ methods:{
           }
 
 
-          let portdata =  await Service.post("https://analyzeme.dev/webstatus", dejta);
+          let portdata =  await Service.post("https://analyzeme.dev/api/webstatus", dejta);
             if (portdata.data == "Data is not available on this wp site"){
                             
                                 this.isDataAvb=false;

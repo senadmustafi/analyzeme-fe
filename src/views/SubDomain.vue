@@ -80,7 +80,7 @@ methods:{
                 this.subdomainerror="Please enter domain!"
                 this.click=true;
             }else{
-                let datasub =  await axios.post("https://analyzeme.dev/subdomain", dejta);
+                let datasub =  await axios.post("https://analyzeme.dev/api/subdomain", dejta);
                 if(datasub == "Subdomain not found" ){
                     this.subdomainerror="Subdomain not found";
                 }else{

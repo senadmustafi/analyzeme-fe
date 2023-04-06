@@ -74,7 +74,7 @@ components:{
     ip: this.ip,
     ports: this.port
           }
-          let portdata =  await axios.post("https://analyzeme.dev/openport", dejta);
+          let portdata =  await axios.post("https://analyzeme.dev/api/openport", dejta);
            if(portdata.data.open.length >=1){
                this.portdata303=null;
                this.portdata200="Port is Open"

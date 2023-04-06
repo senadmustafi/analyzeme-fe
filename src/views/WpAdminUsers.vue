@@ -88,7 +88,7 @@ methods:{
           }
 
 
-          let portdata =  await axios.post("https://analyzeme.dev/scan-wp-users", dejta);
+          let portdata =  await axios.post("https://analyzeme.dev/api/scan-wp-users", dejta);
             if (portdata.data == "Data is not available on this wp site"){
                             var isthisvailid = isUrl(this.wpdns)
                             if(isthisvailid){

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 let Service = axios.create({
-    baseURL: 'https://analyzeme.dev/',
+    baseURL: 'https://analyzeme.dev/api/',
 });
 
 Service.interceptors.request.use((request)=>{

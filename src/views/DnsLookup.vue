@@ -51,7 +51,7 @@ methods:{
           }
 
 
-          let portdata =  await axios.post("https://analyzeme.dev/dnslookup", dejta);
+          let portdata =  await axios.post("https://analyzeme.dev/api/dnslookup", dejta);
             this.dnsdata = portdata.data.address
             console.log(portdata.data)
         }

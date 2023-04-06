@@ -15,7 +15,7 @@
 <details open>
   <summary role="button" class="sccolor1">Other Tools</summary>
    <div class="allButtons">
-  <router-link to="/SubDomain"><div role="button" class="buton2 redirectButton animate__animated animate__flipInX animate__slow"><img src="~@/assets/subdomain.png" width="25" height="25"/> Subdomain Finder </div></router-link>
+  <router-link to="/SubDomain"><div role="button" class="buton2 redirectButton animate__animated animate__flipInX animate__slow"><img src="~@/assets/dns_look.png" width="25" height="25"/> Subdomain Finder </div></router-link>
   <router-link to="/DnsLookup"><div role="button" class="buton2 redirectButton animate__animated animate__flipInX animate__slow"><img src="~@/assets/dns_look.png" width="25" height="25"/> DNS Lookup </div></router-link>
   <router-link to="/PortScan"><div role="button" class="buton2 redirectButton animate__animated animate__flipInX animate__slow"><img src="~@/assets/port_scan.png" width="25" height="25"/> Port Scan </div></router-link>
 </div>

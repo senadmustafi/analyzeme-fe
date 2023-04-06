@@ -93,7 +93,7 @@ export default {
     },
   },
   created() {
-    const socket = io("https://analyzeme.dev");
+    const socket = io("https://analyzeme.dev",{ path: "/api/socket.io"});
     let myemail = Auth.getUser().email;
 
     socket.on(myemail, (data) => {

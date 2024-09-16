@@ -36,7 +36,7 @@ Platforma nudi sedam ključnih alata koji omogućavaju sveobuhvatnu sigurnosnu p
 Demo računi:
 
 
-##### Korisnik-> email: "test@admin", lozinka: "1234"
+##### Korisnik-> email: "test@gmail.com", lozinka: "1234"
 
 
 Web aplikacija:  [https://analyzeme.dev/](https://analyzeme.dev/)
